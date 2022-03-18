@@ -1,12 +1,15 @@
 import React from 'react'
-import HeaderBar from './components/HeaderBar/HeaderBar'
+import Topbar from './components/Topbar/Topbar'
+import Home from './components/Screens/Homepage/Home'
 
 function App() {
   return (
     <div>
-      <HeaderBar />
+      <Topbar />
+      <Home />
     </div>
   )
 }
 
 export default App
+

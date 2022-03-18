@@ -1,0 +1,34 @@
+/* Sidebar components CSS styling*/
+
+.sidebar-section{
+    flex: 3; /* occupy 3 parts out of 12 */
+}
+
+/* styling the subsection section of the side bar*/
+.sidebar-subsection{
+
+}
+
+/* styling the image section of the side bar*/
+.sidebar-image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+}
+/* styling the titles section of the side bar*/
+.sidebar-titles{
+
+}
+/* styling the sidebar-list section of the side bar*/
+
+.sidebar-list{
+
+}
+
+/* styling the sidebar-list-item section of the side bar*/
+
+.sidebar-list-item{
+
+}
+

@@ -1,0 +1,6 @@
+/* Listing components CSS styling*/
+
+
+.Listing-section{
+    flex: 9; /* occupy 9 parts out of 12 */
+}

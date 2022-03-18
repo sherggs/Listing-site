@@ -1,0 +1,35 @@
+/* Header components CSS styling*/
+
+
+.hero-text{
+    display: flex;
+    flex-direction: column; /* flex stacking untop of eachother */
+    align-items: center; /* align items to the center horizontally because its column*/
+    font-family: 'Poppins', sans-serif;
+    color:  #56BBF1;
+    text-transform: uppercase;
+}
+/* styling the hero-text-title section of the header*/
+
+.hero-text-title{
+    position: absolute;
+    top: 13%;
+    font-size: 90px;
+
+}
+/* styling the hero-text-subtitle section of the header*/
+
+.hero-text-subtitle{
+    position: absolute;
+    top: 10%;
+    font-size: 22px;
+
+}
+/* styling the hero-firstimage section of the header*/
+
+.hero-firstimage{
+    width: 100% ;
+    height: 70vh;
+    object-fit: cover;
+
+}
