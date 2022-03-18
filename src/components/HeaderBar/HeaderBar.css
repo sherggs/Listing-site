@@ -1,0 +1,38 @@
+.headerbar{
+    width: 100%;
+    height: 45px;
+    color: black;
+    background-color: #56BBF1;
+    top: 0;
+    position: sticky;
+    display: flex;
+   align-items: center;   /* aligns items/content inside the parent vertially to the center */
+    font-family: 'Ubuntu', sans-serif;
+}
+.header-left,.header-right{
+  /* occupy 3 columns out of 12 */
+    flex: 3;
+    background-color: #F2FA5A;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* aligns items/content inside the parent vertially to the center */
+
+}
+.header-center{
+    /* occupy 6 coloums out of 12 */
+    flex: 6;
+    /* text-align: center; */
+
+}
+.fa-brands{
+    margin: 3px;
+}
+.header-right-profile{
+    width: 45px;
+    height: 45px;
+     border-radius: 50%; /* to make it a circle */
+    object-fit: cover;  /* resize to fit container size */
+}
+.header-right-search{
+
+}
