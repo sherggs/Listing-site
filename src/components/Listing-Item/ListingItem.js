@@ -4,7 +4,7 @@ import './ListingItem.css';
 function ListingItem() {
     return (
         <div className="listing-item">
-            <img className="listing-img" src="https://images.pexels.com/photos/457418/pexels-photo-457418.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt='pic' />
+            <img className="listing-img" src="https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt='picgit ' />
             <div className="listing-details">
                 <div className="listing-categories">
                     <span className="listing-category">Buy</span>
