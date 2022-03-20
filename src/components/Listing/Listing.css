@@ -3,4 +3,7 @@
 
 .Listing-section{
     flex: 9; /* occupy 9 parts out of 12 */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
 }

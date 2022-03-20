@@ -1,10 +1,17 @@
 import React from 'react'
+import ListingItem from '../Listing-Item/ListingItem'
 import './Listing.css'
 
 function Listing() {
   return (
     <div className='Listing-section'>
-    lisitng
+    
+    <ListingItem />
+    <ListingItem />
+    <ListingItem />
+    <ListingItem />
+    <ListingItem />
+    <ListingItem />
     </div>
   )
 }
